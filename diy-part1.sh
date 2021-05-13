@@ -23,3 +23,4 @@
 git clone https://github.com/kenzok8/small package/small
 git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
+rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
