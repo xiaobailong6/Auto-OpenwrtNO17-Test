@@ -23,5 +23,9 @@
 git clone https://github.com/kenzok8/small package/small
 git clone https://github.com/kenzok8/openwrt-packages package/kenzok8
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
-git clone https://github.com/281677160/openwrt-package package/281677160
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-argon-config package/luci-app-argon-config
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-filebrowser package/luci-app-filebrowser
+svn co https://github.com/281677160/openwrt-package/trunk/luci-app-poweroff package/luci-app-poweroff
+
+#git clone https://github.com/281677160/openwrt-package package/281677160
 #rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
