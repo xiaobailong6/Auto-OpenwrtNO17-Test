@@ -28,5 +28,5 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-argon-config p
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-filebrowser package/luci-app-filebrowser
 svn co https://github.com/281677160/openwrt-package/trunk/luci-app-poweroff package/luci-app-poweroff
 
-#git clone https://github.com/281677160/openwrt-package package/281677160
+git clone https://github.com/281677160/openwrt-package package/281677160
 #rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
